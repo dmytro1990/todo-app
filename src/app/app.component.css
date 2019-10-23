@@ -1,0 +1,62 @@
+
+.form{
+    position: relative;
+    width: 370px;
+    height: 390px;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+    border: 1px solid;
+    border-radius: 5px;
+}
+h4, h5{
+    font-weight: 100;
+    font-family: sans-serif;
+}
+ input{
+    font-family: sans-serif;
+    width: 65%;
+    height: 25px;
+    border: 1px solid red;
+    border-radius: 5px;
+    
+    
+}
+.add{
+    width: 244px;
+    height: 30px;
+    /* border: 1px solid; */
+    color: aliceblue;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: pink;
+    text-decoration-color: aliceblue;
+}
+button{
+    border: 1px solid;
+    border-radius: 5px;
+}
+.comletebutton{
+    border: 1px solid;
+    color: pink;
+    background-color: aliceblue;
+}
+li{
+    /* display: flex;
+    flex-direction: row; */
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 10px;
+}
+ol{
+    padding-inline-start: 0;
+}
+.crostext{
+    text-decoration: line-through;
+}
+.remove{
+   position: absolute;
+   right: 65px;
+}
